@@ -34,11 +34,6 @@
     [TK('https://links.jianshu.com/go?to=%s'),
      decodeURIComponent],
      
-    'http[s]://[www|m].baidu.com/*':
-    [TK('http[s]://m.baidu.com/%s'),
-     
-     ],
-     
   };
   
   SHOW(globalRules);
